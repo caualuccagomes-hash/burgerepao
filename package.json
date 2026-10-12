@@ -1,1 +1,1 @@
-{"name":"burger-e-pao-tiangua","private":true,"type":"module","scripts":{"build":"node build.mjs","start":"node server.mjs"}}
+{"name":"burger-e-pao-tiangua","private":true,"type":"module","scripts":{"build":"node build.mjs","start":"node scripts/preview.mjs"}}

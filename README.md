@@ -70,3 +70,9 @@ Estilos adicionais: src/details.css. As duas novas fotos ficam em assets/foto-bu
 Sem JavaScript, os links da galeria abrem os próprios arquivos de imagem e os acordeões continuam funcionando. Com JavaScript, a galeria abre em um dialog nativo com foco modal e retorno ao link de origem.
 
 Compilação, sintaxe JavaScript e 12 verificações estáticas passaram novamente. A inspeção final em navegador continua pendente pela limitação já registrada.
+
+## Publicação na Vercel
+
+A raiz do projeto na Vercel deve ser a raiz do repositório (campo Root Directory vazio ou `.`). Não use `src` nem `dist` como Root Directory. O vercel.json define Framework = Other (null), compilação `node build.mjs` e Output Directory = `dist`. O servidor de prévia está em scripts/preview.mjs e serve apenas para uso local por npm start. O deploy publica HTML, CSS, JavaScript e imagens estáticos, sem invocar uma função Node para abrir a página.
+
+Se o projeto existente da Vercel tiver configurações diferentes, ajuste Root Directory para a raiz e Framework Preset para Other, depois gere um novo deploy do último commit. Um deployment anterior não recebe mudanças de configuração automaticamente.
