@@ -1,0 +1,43 @@
+{
+  "staticChecks": {
+    "singleH1": true,
+    "ptBR": true,
+    "uniqueIds": true,
+    "anchorTargets": true,
+    "safeExternalLinks": true,
+    "noTelephoneLinks": true,
+    "allLocalAssetsExist": true,
+    "noUnresolvedTemplate": true,
+    "exactYoogaLink": true,
+    "exactWhatsappLink": true,
+    "restaurantSchema": true
+  },
+  "assets": {
+    "burger-1440.webp": {
+      "bytes": 154298
+    },
+    "burger-640.webp": {
+      "bytes": 45572
+    },
+    "burger-960.webp": {
+      "bytes": 86440
+    },
+    "favicon.png": {
+      "bytes": 5790
+    },
+    "foto-burgers.webp": {
+      "bytes": 15262
+    },
+    "foto-mesa.webp": {
+      "bytes": 12124
+    },
+    "logo.webp": {
+      "bytes": 25614
+    }
+  },
+  "build": "passed",
+  "javascriptSyntax": "passed",
+  "browserInspection": "blocked: Edge headless crashes during initialization; integrated browser cannot reach local preview",
+  "lighthouse": null,
+  "coreWebVitals": null
+}
